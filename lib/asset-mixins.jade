@@ -1,0 +1,11 @@
+//- defines a mixin which renders the styles for the specified list of modules
+mixin addModuleStyles()
+  if self.styles
+    each style in self.styles
+      link(href=style, rel='stylesheet', type='text/css')
+
+//- defines a mixin which renders the javascripts for the specified list of modules
+mixin addModuleScripts()
+  if self.scripts
+    each script in self.scripts
+      script(src=script, type='text/javascript')
