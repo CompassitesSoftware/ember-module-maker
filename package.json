@@ -25,6 +25,8 @@
   "homepage": "https://github.com/codematix/ember-module-maker",
   "dependencies": {
     "async": "^0.9.0",
+    "ember-template-compiler": "^1.8.0",
+    "graceful-fs": "^3.0.4",
     "handlebars": "^1.3.0",
     "jade": "^1.7.0",
     "js-beautify": "^1.5.4",
